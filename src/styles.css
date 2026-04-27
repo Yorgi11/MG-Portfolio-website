@@ -415,6 +415,36 @@ main {
   margin-top: 1.25rem;
 }
 
+.project-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.project-link-row .project-link {
+  margin-top: 0;
+}
+
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.project-tools code {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.5rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .not-found {
   min-height: 420px;
 }

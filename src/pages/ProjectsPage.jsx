@@ -7,11 +7,7 @@ export default function ProjectsPage() {
       <section className="section page-heading">
         <p className="eyebrow">Projects</p>
         <h1>Project Showcase</h1>
-        <p>
-          This page is generated from the projects array in
-          <code> src/config/siteConfig.js</code>. Add a title, description, logo,
-          and link there, and the card layout updates automatically.
-        </p>
+        <p>Below is a list of both completed and in-progress projects.</p>
       </section>
 
       <section className="project-grid" aria-label="Project list">
