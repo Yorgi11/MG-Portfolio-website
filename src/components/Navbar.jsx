@@ -6,9 +6,9 @@ export default function Navbar() {
   const location = useLocation();
 
   const sectionOffsets = {
-    hero: 0,
-    about: 140,
-    contact: 140,
+    hero: 160,
+    about: 150,
+    contact: 160,
   };
 
   function scrollToSection(sectionId) {
