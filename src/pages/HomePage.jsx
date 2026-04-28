@@ -52,6 +52,10 @@ export default function HomePage() {
             <span className="stat-value">C++, Rust</span>
             <span className="stat-label">Standalone Applications</span>
           </div>
+          <div className="hero-panel-card">
+            <span className="stat-value">Networking</span>
+            <span className="stat-label">Multiplayer + Backend Flow</span>
+          </div>
         </div>
       </section>
 

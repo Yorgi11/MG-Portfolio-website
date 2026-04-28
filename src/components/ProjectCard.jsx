@@ -11,7 +11,9 @@ export default function ProjectCard({ project }) {
           alt={`${project.title} logo`}
         />
       </div>
-
+      {project.status && (
+        <code className="project-status">{project.status}</code>
+      )}
       <div className="project-card-body">
         <h2>{project.title}</h2>
         <p>{project.description}</p>

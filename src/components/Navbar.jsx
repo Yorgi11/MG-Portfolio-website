@@ -39,7 +39,13 @@ export default function Navbar() {
     <header className="site-header">
       <div className="container nav-container">
         <Link className="brand" to="/" aria-label="Go to homepage">
-          <img className="brand-logo" src={siteConfig.logo} alt="Site logo" />
+          <div className="brand-logo-wrap">
+            <img
+              className="brand-logo"
+              src={siteConfig.heroLogo}
+              alt="Site logo"
+            />
+          </div>
           <div className="brand-copy">
             <span className="brand-title">{siteConfig.title}</span>
             <span className="brand-subtitle">{siteConfig.subtitle}</span>

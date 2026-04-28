@@ -86,6 +86,24 @@ code {
   color: var(--primary);
 }
 
+.project-status {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.65rem;
+
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--primary);
+
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 .app-shell {
   min-height: 100vh;
   display: flex;
@@ -131,6 +149,7 @@ main {
   height: 54px;
   object-fit: contain;
   flex: 0 0 auto;
+  z-index: 1;
 }
 
 .brand-copy {
@@ -294,6 +313,25 @@ main {
   color: var(--text);
 }
 
+.brand-logo-wrap::before {
+  content: "";
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background: var(--muted);
+  z-index: 0;
+}
+
+.brand-logo-wrap {
+  position: relative;
+  width: 59px;
+  height: 59px;
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+}
+
 .hero-logo-wrap {
   position: relative;
   width: 220px;
@@ -406,6 +444,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 1.25rem;
+  position: relative;
 }
 
 .project-logo-wrap {
