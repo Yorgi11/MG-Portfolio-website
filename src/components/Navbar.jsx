@@ -6,7 +6,7 @@ export default function Navbar() {
   const location = useLocation();
 
   const sectionOffsets = {
-    hero: 120,
+    hero: 0,
     about: 140,
     contact: 140,
   };
