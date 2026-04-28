@@ -10,8 +10,18 @@ export default function HomePage() {
       <section id="hero" className="hero section">
         <div className="hero-content">
           <p className="eyebrow">{hero.eyebrow}</p>
-          <h1 style={{ marginBottom: "10rem" }}>{hero.title}</h1>
+          <h1>{hero.title}</h1>
+
+          <div className="hero-logo-wrap">
+            <img
+              className="hero-logo"
+              src={siteConfig.heroLogo}
+              alt="Site logo"
+            />
+          </div>
+
           <p>{hero.description}</p>
+
           <div className="button-row">
             <Link className="button button-primary" to={hero.primaryAction.to}>
               {hero.primaryAction.label}
@@ -37,6 +47,10 @@ export default function HomePage() {
           <div className="hero-panel-card">
             <span className="stat-value">React</span>
             <span className="stat-label">Web Interfaces</span>
+          </div>
+          <div className="hero-panel-card">
+            <span className="stat-value">C++, Rust</span>
+            <span className="stat-label">Standalone Applications</span>
           </div>
         </div>
       </section>
