@@ -72,7 +72,7 @@ export const projects = [
     logo: "/MG-Portfolio_logo.png",
     tools: ["React", "Vite", "HTML", "CSS"],
     link: "https://github.com/Yorgi11/MG-Portfolio-website",
-    link2: "https://michaelgiorgi.dev",
+    link2: "https://michael-giorgi.dev",
   },
   {
     title: "Digital Development Institute Website",
