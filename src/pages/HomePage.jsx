@@ -9,8 +9,8 @@ export default function HomePage() {
     <div className="page">
       <section id="hero" className="hero section">
         <div className="hero-content">
-          <p className="eyebrow">{hero.eyebrow}</p>
           <h1>{hero.title}</h1>
+          <p className="eyebrow">{hero.eyebrow}</p>
 
           <div className="hero-logo-wrap">
             <img
@@ -20,7 +20,7 @@ export default function HomePage() {
             />
           </div>
 
-          <p>{hero.description}</p>
+          <p2>{hero.description}</p2>
 
           <div className="button-row">
             <Link className="button button-primary" to={hero.primaryAction.to}>
@@ -49,7 +49,7 @@ export default function HomePage() {
             <span className="stat-label">Web Interfaces</span>
           </div>
           <div className="hero-panel-card">
-            <span className="stat-value">C++, Rust</span>
+            <span className="stat-value">C++ & Rust</span>
             <span className="stat-label">Standalone Applications</span>
           </div>
           <div className="hero-panel-card">
@@ -61,7 +61,6 @@ export default function HomePage() {
 
       <Section
         id="about"
-        eyebrow="About"
         title={about.title}
         description={about.description}
       >
@@ -76,12 +75,11 @@ export default function HomePage() {
 
       <Section
         id="contact"
-        eyebrow="Contact"
         title={contact.title}
         description={contact.description}
       >
         <div className="contact-card">
-          <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          <a href={`mailto:${contact.email}`}>Email</a>
           <a href={contact.github} target="_blank" rel="noreferrer">
             GitHub
           </a>

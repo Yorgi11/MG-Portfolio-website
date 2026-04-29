@@ -160,7 +160,7 @@ main {
 
 .brand-title {
   font-size: clamp(1rem, 2vw, 1.25rem);
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
@@ -246,6 +246,7 @@ main {
 .page-heading h1,
 .section-title {
   margin: 0;
+  margin-left: -0.25rem;
   max-width: 700px;
   font-size: clamp(2rem, 7vw, 4.4rem);
   line-height: 0.95;
@@ -258,6 +259,16 @@ main {
 
 .hero-content p,
 .page-heading p,
+.section-description {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.75;
+  margin-bottom: -1rem;
+}
+
+.hero-content p2,
+.page-heading p2,
 .section-description {
   max-width: 760px;
   color: var(--muted);
@@ -338,7 +349,8 @@ main {
   height: 220px;
   display: grid;
   place-items: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .hero-logo-wrap::before {
@@ -375,6 +387,7 @@ main {
 
 .hero-panel-card {
   padding-left: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
   margin-left: 2rem;
   margin-right: 0.5rem;
@@ -391,7 +404,7 @@ main {
 .stat-label {
   display: block;
   color: var(--muted);
-  margin-top: -0.3rem;
+  margin-top: 0rem;
 }
 
 .detail-grid {

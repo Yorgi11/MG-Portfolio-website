@@ -5,7 +5,6 @@ export default function ProjectsPage() {
   return (
     <div className="page">
       <section className="section page-heading">
-        <p className="eyebrow">Projects</p>
         <h1>Project Showcase</h1>
         <p>Below is a list of both completed and in-progress projects.</p>
       </section>
